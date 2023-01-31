@@ -1,13 +1,8 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
-      Hello Next 13
+    <div className='text-lg p-4 text-sky-500 font-railway'>
+      Hello Next 13 W
     </div>
   )
 }
